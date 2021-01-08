@@ -1,0 +1,19 @@
+titles: #TÍTULOS QUE SERÃO ENVIADOS PARA TODOS OS JOGADORES ONLINE
+  sorteando-linha1: "&f&kJOGADOR"
+  sorteando-linha2: "&eEscolhendo um Jogador"
+  sorteado-linha1: "&f{jogador}"
+  sorteado-linha2: "&f{premio}"
+
+recompensas: #RECOMPENSA QUE SERÁ ENVIADA PARA O JOGADOR SORTEADO
+  Recompensa1:
+    Premio: "&bEspada de Diamante"
+    Item:
+      ID: "276"
+      Nome: "&bEspada de Diamante"
+      Lore: "&7Uma Espada de Diamante\n&6&lPRÉMIO"
+  Recompensa2:
+    Premio: "&bPicareta de Diamante"
+    Item:
+      ID: "278"
+      Nome: "&bPicareta de Diamante"
+      Lore: "&7Uma Picareta de Diamante\n&6&lPRÉMIO"

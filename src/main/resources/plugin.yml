@@ -1,0 +1,9 @@
+name: ${project.name}
+version: ${project.version}
+main: github.slkhater.shieldsorteios.Core
+authors: [slkhater, FalaHaTEr]
+description: ${project.description}
+
+commands:
+  sortear:
+    usage: /<command>
