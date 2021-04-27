@@ -4,16 +4,52 @@ titles: #TÍTULOS QUE SERÃO ENVIADOS PARA TODOS OS JOGADORES ONLINE
   sorteado-linha1: "&f{jogador}"
   sorteado-linha2: "&f{premio}"
 
-recompensas: #RECOMPENSA QUE SERÁ ENVIADA PARA O JOGADOR SORTEADO
-  Recompensa1:
-    Premio: "&bEspada de Diamante"
-    Item:
-      ID: "276"
-      Nome: "&bEspada de Diamante"
-      Lore: "&7Uma Espada de Diamante\n&6&lPRÉMIO"
-  Recompensa2:
-    Premio: "&bPicareta de Diamante"
-    Item:
-      ID: "278"
-      Nome: "&bPicareta de Diamante"
-      Lore: "&7Uma Picareta de Diamante\n&6&lPRÉMIO"
+sorteio:
+  tempo: 4 #EM SEGUNDOS
+  recompensas: #RECOMPENSA QUE SERÁ ENVIADA PARA O JOGADOR SORTEADO
+    Recompensa1:
+      NomePremio: "&7Estojo de Sobrevivência Básico"
+      Items:
+        Item1:
+          ID: 272
+          Quantidade: 1
+          Nome: "&fEspada de Pedra"
+          Lore: "&6&lPRÉMIO"
+        Item2:
+          ID: 274
+          Quantidade: 1
+          Nome: "&fPicareta de Pedra"
+          Lore: "&6&lPRÉMIO"
+      Comandos:
+        - 'give {jogador} apple 2'
+    Recompensa2:
+      NomePremio: "&fEstojo de Sobrevivência Avançado"
+      Items:
+        Item1:
+          ID: 267
+          Quantidade: 1
+          Nome: "&fEspada de Ferro"
+          Lore: "&6&lPRÉMIO"
+        Item2:
+          ID: 257
+          Quantidade: 1
+          Nome: "&fPicareta de Ferro"
+          Lore: "&6&lPRÉMIO"
+      Comandos:
+        - 'give {jogador} apple 8'
+    Recompensa3:
+      NomePremio: "&bEstojo de Sobrevivência Experiente"
+      Items:
+        Item1:
+          ID: 276
+          Quantidade: 1
+          Nome: "&fEspada de Diamante"
+          Lore: "&6&lPRÉMIO"
+        Item2:
+          ID: 278
+          Quantidade: 1
+          Nome: "&fPicareta de Diamante"
+          Lore: "&6&lPRÉMIO"
+      Comandos:
+        - 'give {jogador} apple 16'
+        - 'give {jogador} golden_apple 1'
